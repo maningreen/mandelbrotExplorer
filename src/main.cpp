@@ -22,7 +22,7 @@ int main() {
   InitWindow(600, 600, "Mandelbrot set");
   SetTargetFPS(60);
   cameraD cam = {{0}, 1};
-  Shader shad = LoadShader(0, "src/test.fs");
+  Shader shad = LoadShader(0, "src/shader.fs");
   Texture2D texture;
   Image blnk;
 
